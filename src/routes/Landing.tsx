@@ -7,7 +7,6 @@
 /* eslint-disable max-len,babel/new-cap,operator-linebreak,fecs-export-on-declare,space-before-function-paren */
 import React, {Component} from 'react';
 import styled, {css, keyframes} from 'styled-components';
-import {Box, palette, Flex} from '@baidu/rubik-ui';
 import AuthGuard from 'api/AuthGuard';
 import {
     withRouter,
@@ -37,7 +36,7 @@ class Landing extends Component<Props, State> {
             return <Redirect to={from} />;
         }
         return (
-            <Box>
+            <div>
                 LandingPage
                 {AuthGuard.isAuthenticated ? (
                     <button onClick={this.logout}>logout</button>
@@ -50,7 +49,7 @@ class Landing extends Component<Props, State> {
                 <li>
                     <Link to={Config.path.joke}>Joke</Link>
                 </li>
-            </Box>
+            </div>
         );
     }
 

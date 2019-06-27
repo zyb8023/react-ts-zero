@@ -8,7 +8,6 @@
 import React, {Component} from 'react';
 
 import styled, {css, keyframes} from 'styled-components';
-// import {Box, palette, Flex} from '@baidu/rubik-ui';
 
 import Config from 'config';
 import {

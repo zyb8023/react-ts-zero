@@ -8,7 +8,6 @@
 import React, {Component} from 'react';
 import {Link, Route, withRouter, Switch} from 'react-router-dom';
 import styled, {css, keyframes} from 'styled-components';
-import {Box, palette, Flex} from '@baidu/rubik-ui';
 import {connect} from 'react-redux';
 import {iRootState, Dispatch} from 'store';
 
@@ -29,7 +28,7 @@ class Home extends Component<Props, State> {
     render() {
         return (
             <div>
-                <Box>count:{this.props.count}</Box>
+                <div>count:{this.props.count}</div>
                 <button onClick={this.props.increment}>increment</button>
             </div>
         );

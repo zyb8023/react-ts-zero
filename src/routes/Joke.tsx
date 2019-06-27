@@ -7,7 +7,6 @@
 /* eslint-disable max-len,babel/new-cap,operator-linebreak,fecs-export-on-declare,space-before-function-paren */
 import React, {Component} from 'react';
 import styled, {css, keyframes} from 'styled-components';
-import {Box, palette, Flex} from '@baidu/rubik-ui';
 interface Props {}
 interface State {}
 class Joke extends Component<Props, State> {

@@ -3,7 +3,7 @@
 This is a starter kit bootstrapped with Create-React-App along with following stuffs:
 
 -   Language and Linters: typescript, eslint, prettier
--   deps: react, react-redux(rematch), react-router-dom, sytled-components, @baidu/rubik-ui
+-   deps: react, react-redux(rematch), react-router-dom, sytled-components
 
 ## Repo Structure
 

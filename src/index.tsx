@@ -13,16 +13,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Provider} from 'react-redux';
 import {store} from './store';
-import {ThemeProvider} from '@baidu/rubik-ui';
 import ThemeLoader from './theme/ThemeLoader';
 
 const theme = ThemeLoader.getThemeConfig('green');
 const render = Component => {
     ReactDOM.render(
         <Provider store={store}>
-            <ThemeProvider theme={theme}>
-                <Component />
-            </ThemeProvider>
+            <Component />
         </Provider>,
         document.getElementById('root')
     );

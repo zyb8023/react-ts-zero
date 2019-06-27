@@ -28,7 +28,6 @@
         ]
     },
     "dependencies": {
-        "@baidu/rubik-ui": "^0.2.7",
         "@rematch/core": "^1.1.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
